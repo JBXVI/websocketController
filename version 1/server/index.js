@@ -9,7 +9,7 @@ const commands = require('./custom/commands.json'); //commands json file
 //values
 const  PORT = 80; //websocket port
 const password = "b2d627894807d0af925ba02a15e8d30d314cbf21cfbc4137f54da282c3360ff1"; //sha256 hash password
-const mongoDBConnectionString = 'mongodb+srv://xv:Eight8nine9@cluster0.gfv8vjt.mongodb.net/collections'; //connection string for mongodb
+const mongoDBConnectionString = 'REPLACE WITH MONGODB CONNECTION STRING'; //connection string for mongodb
 
 //initializations
 const wss = new websocket.WebSocketServer({port:PORT}); //websocket init
